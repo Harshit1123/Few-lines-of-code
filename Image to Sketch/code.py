@@ -1,6 +1,6 @@
 import cv2
 
-img_rgb = cv2.imread("leo.jpg")
+img_rgb = cv2.imread("my_photo.jpg")
 img_gray = cv2.cvtColor(img_rgb, cv2.COLOR_BGR2GRAY)
 
 img_gray_inv = 255 - img_gray
